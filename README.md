@@ -4,7 +4,7 @@ android 20範例
 sdroot = Environment.getExternalStorageDirectory(); 取得外部SD卡
 progressDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER); 轉圈圈
 
-
+**********************************************************************
 package com.example.iii_user.ming14v2;
 
 import android.app.ProgressDialog;
@@ -77,6 +77,7 @@ public class MainActivity extends AppCompatActivity {
        // uIhandler.sendEmptyMessage(0);
         progressDialog.dismiss();
     }
+****************************************************
 //    private class UIhandler extends Handler{
 //        @Override
 //        public void handleMessage(Message msg) {
